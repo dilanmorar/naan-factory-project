@@ -11,6 +11,12 @@ This is a repo for naan factory
 - DRY principles
 - seperation of concerns
 
+## How to run the program
+run the naan_factory_run.py file
+
+## How to run the tests
+run the naan_factory_tests.py file
+
 ## Specification of the factory
 Our factory will have two steps:
 - To make dough: mix water and flour to make dough
