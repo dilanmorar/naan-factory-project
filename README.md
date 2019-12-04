@@ -7,7 +7,9 @@ This is a repo for naan factory
 - github
 - markdown
 - tdd
-- functional programming
+- functional 
+- DRY principles
+- seperation of concerns
 
 ## Specification of the factory
 Our factory will have two steps:

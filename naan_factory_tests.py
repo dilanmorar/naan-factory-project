@@ -3,17 +3,9 @@
     # having controlled inputs for known outputs
     # testing for these
 
-def make_dough(arg1,arg2):
-    if 'water' in [arg1, arg2] and 'flour' in [arg1,arg2]:
-        return 'dough'
-    else:
-        return 'not dough'
+# tests go here
 
-def bake_dough(arg3):
-    if arg3 == 'dough':
-        return 'naan'
-    else:
-        return 'not naan'
+from naan_factory_functions import *
 
 # To make dough: mix water and flour to make dough
 print('testing make_dough expect "dough"')
