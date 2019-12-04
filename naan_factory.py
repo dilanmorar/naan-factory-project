@@ -3,8 +3,18 @@
     # having controlled inputs for known outputs
     # testing for these
 
-# To make dough: mix water and flour to make dough
-print(make_dough('water','flour') == 'dough')
-# Baking dough: we should be able to put it in the oven and make naan
+def make_dough(arg1,arg2):
+    pass
 
-print(bake_dough('dough') == 'Naan')
+def bake_dough(arg3):
+    pass
+
+# To make dough: mix water and flour to make dough
+print('testing make_dough expect "dough"')
+print(make_dough('water','flour') == 'dough')
+print('got: ', make_dough('water','flour'))
+
+# Baking dough: we should be able to put it in the oven and make naan
+print('testing bake_dough expect "naan"')
+print(bake_dough('dough') == 'naan')
+print('got: ', bake_dough('dough'))
