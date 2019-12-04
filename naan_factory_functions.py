@@ -15,4 +15,4 @@ def bake_dough(arg3):
 def run_factory(arg1,arg2):
     output1 = make_dough()
     output2 = bake_dough(output1)
-    
+    return output2
